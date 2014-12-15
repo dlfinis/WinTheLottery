@@ -2,15 +2,112 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context=".MainActivity">
+  android:padding="@dimen/paddingSmall"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient_background">
 
-    <TextView
-        android:text="@string/hello_world"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            android:gravity="center_horizontal"
+            android:paddingRight="@dimen/paddingLarge"
+        android:paddingLeft="@dimen/paddingLarge">
+
+        <Space
+
+                android:layout_width="wrap_content"
+                android:layout_height="50dp" />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="@string/welcome"
+                android:textSize="@dimen/font_size_Large"
+                android:typeface="sans"
+                android:textColor="@color/light_secondary"
+                android:textAllCaps="false"
+                android:layout_gravity="center_horizontal"
+               />
+
+
+        <Space
+
+                android:layout_width="wrap_content"
+                android:layout_height="50dp" />
+
+        <FrameLayout
+                style="@style/AppTheme.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+            <Button
+                    style="@style/ButtonCaptionOnly"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableStart="@drawable/clover"
+                    android:gravity="center"
+                    android:text="@string/settings"
+                    android:laxyout_margin="0dp"
+                    android:padding="0dp"
+                    android:drawablePadding="@dimen/paddingSmall"/>
+        </FrameLayout>
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/random_number"
+                    android:id="@+id/btnLuckyNumber"
+                    style="@style/AppTheme.Button"
+                    android:textStyle="bold|italic"
+                    android:typeface="sans"/>
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/favorite_number"
+                    android:id="@+id/btnFavoriteNumber"
+                    style="@style/AppTheme.Button"
+                    />
+        <FrameLayout
+                style="@style/AppTheme.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="MessageTestView">
+            <Button
+                    style="@style/ButtonCaptionOnly"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settings"
+                    android:id="@+id/btnSettings"
+                    android:layout_margin="0dp"
+                    android:padding="0dp"
+                    android:drawableStart="@drawable/ic_settings"
+                    android:drawablePadding="@dimen/paddingSmall"
+                   android:clickable="true"
+                   android:focusable="true"
+                    />
+
+        </FrameLayout>
+        <FrameLayout
+                style="@style/AppTheme.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+            <Button
+                    style="@style/ButtonCaptionOnly"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableStart="@android:drawable/ic_menu_manage"
+                    android:gravity="center"
+                    android:text="@string/settings"
+                    android:layout_margin="0dp"
+                    android:padding="0dp"
+                    android:drawablePadding="@dimen/paddingSmall"/>
+        </FrameLayout>
+        </LinearLayout>
+
 
 </RelativeLayout>

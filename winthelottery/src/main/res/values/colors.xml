@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--Interface Colors-->
+    <color name="dark_primary">#025697</color>
+    <color name="normal_primary">#0281E2</color>
+    <color name="light_primary">#108FF0</color>
+    <color name="darker_primary">#ff03023b</color>
+    <color name="dark_secondary">#EBB000</color>
+    <color name="normal_secondary">#FFBF00</color>
+    <color name="light_secondary">#ffffd655</color>
+    <color name="dark_third">#ffff8b34</color>
+    <color name="normal_third">#ffff8e45</color>
+    <color name="light_third">#ffffb375</color>
+    <color name="white">#eeff</color>
+    <color name="black">#b1000000</color>
+    <!--Fonts Colors-->
+    <color name="font_light">#b2ebf2</color>
+</resources>

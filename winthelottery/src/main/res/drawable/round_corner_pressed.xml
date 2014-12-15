@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+       android:shape="rectangle">   //Defines the shape of button you wants
+    <gradient
+            android:startColor="@color/light_secondary"
+            android:centerColor="@color/normal_secondary"
+            android:endColor="@color/light_secondary"
+            android:angle="270"
+            android:type="linear">
+    </gradient>
+<corners android:bottomLeftRadius="10dp"
+         android:bottomRightRadius="10dp"
+         android:topLeftRadius="10dp"
+         android:topRightRadius="10dp"
+
+        />
+</shape>
+
