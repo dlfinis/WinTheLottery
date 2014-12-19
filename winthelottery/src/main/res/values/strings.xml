@@ -2,12 +2,15 @@
 <resources>
 
     <string name="app_name">"Win The Lottery!"</string>
+    <string name="company_name">"JaggerFly Ops"</string>
     <string name="hello_world">"Hello world!"</string>
     <string name="action_settings">"Settings"</string>
     <string name="title_activity_splash">"SplashActivity"</string>
     <string name="welcome">"WELCOME"</string>
-    <string name="random_number">"I'm Lucky.."</string>
+    <string name="random_number">"I'm Lucky..."</string>
     <string name="favorite_number">"Favorite Number"</string>
     <string name="settings">"Settings"</string>
+    <string name="about">"Be different, Be wonderful..!"</string>
+    <string name="thanks">"Thanks use it app."</string>
 
 </resources>

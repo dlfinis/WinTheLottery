@@ -1,4 +1,4 @@
-package com.amazon.winthelottery;
+package jaggerfly.ops.winthelottery;
 
 import android.app.Activity;
 import android.content.Intent;

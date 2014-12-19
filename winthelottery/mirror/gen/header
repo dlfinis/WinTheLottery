@@ -1,8 +1,8 @@
 #Automatically generated header file. Editing this file may cause problems.
-#Mon Dec 15 09:17:15 ECT 2014
+#Thu Dec 18 13:07:19 ECT 2014
 dexState=NO_CHANGE
 serverVersion=2.3
-version=45
+version=721
 package=com.amazon.winthelottery
 serverVersionCode=52
 appTheme=@style/AppTheme

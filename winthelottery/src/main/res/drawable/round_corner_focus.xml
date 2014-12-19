@@ -3,9 +3,9 @@
        android:shape="rectangle">   //Defines the shape of button you wants
 
     <gradient
-            android:startColor="@color/dark_third"
-            android:centerColor="@color/normal_third"
-            android:endColor="@color/light_third"
+            android:startColor="@color/normal_third"
+            android:centerColor="@color/dark_third"
+            android:endColor="@color/normal_third"
             android:angle="270"
             android:type="linear">
     </gradient>

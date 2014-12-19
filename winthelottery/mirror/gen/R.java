@@ -29,6 +29,7 @@ containing a value of this type.
         /** Fonts Colors
          */
         public static final int font_light=0x7f04000c;
+        public static final int font_lighter=0x7f04000d;
         public static final int light_primary=0x7f040002;
         public static final int light_secondary=0x7f040006;
         public static final int light_third=0x7f040009;
@@ -39,54 +40,56 @@ containing a value of this type.
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
- Example customization of dimensions originally defined in res/values/dimens.xml
-         (such as screen margins) for screens with more than 820dp of available width. This
-         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively). 
          */
         public static final int activity_horizontal_margin=0x7f050000;
         public static final int activity_vertical_margin=0x7f050001;
-        public static final int font_size_Large=0x7f05000e;
-        public static final int font_size_Normal=0x7f05000c;
-        public static final int font_size_Small=0x7f05000a;
-        public static final int font_size_large=0x7f05000d;
-        public static final int font_size_normal=0x7f05000b;
-        public static final int font_size_small=0x7f050009;
-        public static final int marginLarge=0x7f050008;
-        public static final int marginMedium=0x7f050007;
-        public static final int marginSmall=0x7f050006;
+        public static final int font_size_Large=0x7f05000f;
+        public static final int font_size_Normal=0x7f05000d;
+        public static final int font_size_Small=0x7f05000b;
+        public static final int font_size_large=0x7f05000e;
+        public static final int font_size_normal=0x7f05000c;
+        public static final int font_size_small=0x7f05000a;
+        public static final int marginLarge=0x7f050009;
+        public static final int marginMedium=0x7f050008;
+        public static final int marginSmall=0x7f050007;
         public static final int paddingAll=0x7f050002;
-        public static final int paddingLarge=0x7f050005;
-        public static final int paddingMedium=0x7f050004;
-        public static final int paddingSmall=0x7f050003;
+        public static final int paddingLarge=0x7f050006;
+        public static final int paddingLittle=0x7f050003;
+        public static final int paddingMedium=0x7f050005;
+        public static final int paddingSmall=0x7f050004;
     }
     public static final class drawable {
         public static final int clover=0x7f020000;
         public static final int gradient_background=0x7f020001;
         public static final int ic_launcher=0x7f020002;
         public static final int ic_settings=0x7f020003;
-        public static final int numeral=0x7f020004;
-        public static final int round_corner=0x7f020005;
-        public static final int round_corner_focus=0x7f020006;
-        public static final int round_corner_pressed=0x7f020007;
-        public static final int selector_button=0x7f020008;
-        public static final int splash_screen=0x7f020009;
+        public static final int jagger=0x7f020004;
+        public static final int jagger_white=0x7f020005;
+        public static final int numeral=0x7f020006;
+        public static final int round_corner=0x7f020007;
+        public static final int round_corner_focus=0x7f020008;
+        public static final int round_corner_pressed=0x7f020009;
+        public static final int selector_button=0x7f02000a;
+        public static final int selector_button_logo=0x7f02000b;
+        public static final int splash_screen=0x7f02000c;
     }
     public static final class id {
-        public static final int action_settings=0x7f090003;
+        public static final int action_settings=0x7f090004;
         public static final int btnFavoriteNumber=0x7f090001;
-        public static final int btnLuckyNumber=0x7f090000;
+        public static final int btnJagger=0x7f090003;
         public static final int btnSettings=0x7f090002;
+        public static final int buttonAlert=0x7f090000;
     }
     public static final class layout {
-        public static final int activity_main=0x7f030000;
-        public static final int activity_splash=0x7f030001;
+        public static final int about=0x7f030000;
+        public static final int activity_main=0x7f030001;
+        public static final int activity_splash=0x7f030002;
     }
     public static final class menu {
         public static final int menu_main=0x7f080000;
         public static final int menu_splash=0x7f080001;
     }
     public static final class string {
-        public static final int Close=0x7f060008;
         public static final int action_settings=0x7f060002;
         public static final int app_name=0x7f060000;
         public static final int favorite_number=0x7f060006;
@@ -99,10 +102,17 @@ containing a value of this type.
     public static final class style {
         /**  Base application theme. 
  Customize your theme here. 
+ Base application theme. 
+ Customize your theme here. 
+ Base application theme. 
+ Customize your theme here. 
+ Base application theme. 
+ Customize your theme here. 
          */
         public static final int AppTheme=0x7f070000;
         public static final int AppTheme_Button=0x7f070001;
         public static final int ButtonCaptionOnly=0x7f070002;
+        public static final int GreyEtchedText=0x7f070003;
     }
     public static final class styleable {
         /** Attributes that can be used with a MyStyleText.
@@ -119,7 +129,7 @@ containing a value of this type.
             0x7f010000
         };
         /**
-          <p>This symbol is the offset where the {@link com.amazon.winthelottery.R.attr#fontName}
+          <p>This symbol is the offset where the {@link jaggerfly.ops.winthelottery.R.attr#fontName}
           attribute's value can be found in the {@link #MyStyleText} array.
 
 
@@ -129,7 +139,7 @@ containing a value of this type.
 theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
-          @attr name com.amazon.winthelottery:fontName
+          @attr name jaggerfly.ops.winthelottery:fontName
         */
         public static final int MyStyleText_fontName = 0;
     };

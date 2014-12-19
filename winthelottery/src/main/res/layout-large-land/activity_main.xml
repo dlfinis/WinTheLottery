@@ -1,0 +1,140 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:padding="@dimen/paddingSmall"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient_background">
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+
+            android:gravity="center_horizontal"
+            android:paddingRight="@dimen/paddingLarge"
+        android:paddingLeft="@dimen/paddingLarge"
+
+        android:weightSum="1"
+     >
+
+        <Space
+
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="@string/welcome"
+                android:textSize="@dimen/font_size_Large"
+                android:typeface="sans"
+                android:textColor="@color/light_secondary"
+                android:textAllCaps="false"
+                android:layout_gravity="center_horizontal"
+                android:shadowColor="@color/darker_primary"
+                android:shadowDx="5"
+                android:shadowDy="10"
+                android:shadowRadius="30"
+                android:textStyle="bold"/>
+        <Space
+
+                android:layout_width="wrap_content"
+                android:layout_height="30dp" />
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="60dp"
+                android:layout_marginLeft="60dp">
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+        <FrameLayout
+                style="@style/AppTheme.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="0dp"
+                android:layout_weight="1"
+            >
+
+            <Button
+                    style="@style/ButtonCaptionOnly"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableStart="@drawable/clover"
+                    android:gravity="center"
+                    android:textStyle="bold|italic"
+                    android:typeface="sans"
+                    android:text="@string/random_number"
+                    android:drawablePadding="@dimen/paddingSmall"/>
+        </FrameLayout>
+
+        <FrameLayout
+                style="@style/AppTheme.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="0dp"
+                android:layout_weight="1">
+
+            <Button
+                    style="@style/ButtonCaptionOnly"
+                    android:id="@+id/btnFavoriteNumber"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableStart="@drawable/numeral"
+
+                    android:gravity="center"
+                    android:text="@string/favorite_number"
+                    android:layout_margin="0dp"
+                    android:padding="0dp"
+                    android:drawablePadding="@dimen/paddingLittle"/>
+        </FrameLayout>
+        </LinearLayout>
+
+        <FrameLayout
+                style="@style/AppTheme.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+            <Button
+                    style="@style/ButtonCaptionOnly"
+                    android:id="@+id/btnSettings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:drawableStart="@android:drawable/ic_menu_manage"
+
+                    android:gravity="center"
+                    android:text="@string/settings"
+                    android:layout_margin="0dp"
+                    android:padding="0dp"
+                    android:drawablePadding="@dimen/paddingMedium"/>
+        </FrameLayout>
+    </LinearLayout>
+
+
+    <ImageButton
+
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/btnJagger"
+                android:clickable="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/selector_button_logo"
+                android:background="@android:color/transparent"
+                />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
